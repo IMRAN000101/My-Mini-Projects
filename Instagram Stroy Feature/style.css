@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: lightslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 488px;
+    width: 335px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+#storiyan{
+    height: 100px;
+    width: 91%;
+    padding: 15px;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;  /* sabko ek hi line mein lane ke liye */
+    overflow-x: auto;
+    overflow-y: hidden;  
+}
+#storiyan::-webkit-scrollbar{ /* scroll bar hatane ka kaam karta hai */
+    display: none;
+}
+.story{
+    border: 3px solid red;
+    height: 90px;  /* total storiyan ki height hai 120px and story ki height hai 80px give padding 20px to the parent to center */
+    width: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+#full-screen{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+}

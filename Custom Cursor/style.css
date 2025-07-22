@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: grab;
+}
+.cursor{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    mix-blend-mode: difference;  /* Same color overlap nahi ho payenge */
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+h1{
+    font-size: 7vw;
+    font-weight: 900;
+}

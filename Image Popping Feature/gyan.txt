@@ -1,0 +1,17 @@
+hamara mouse jab chal raha hai, to kai baar chal raha hai jiske wajah se kai baar card create hoojayega and wo hum nahi chahte 
+
+
+mouse jitni baar chalna hai chale bas execution of function kam baar ho matlab jitni baar apna mouse move ho utni baar apan ko image nahi mangta usse kahi kam images chahiye matlab agar pura horizontally ek baar mouse move ho to hamko 8-9 images chahiye bass.....
+
+
+AND IT MEANS THROTTLING..--KISI PARTICULAR CODE KE NO. OF EXECUTION KO KAM KARDENA
+
+
+
+
+
+solution:--> 
+. Har bar ek div banao
+.div ko absolute banao ek width and height do aur overflow ko hidden karo
+.and div ke andar image banao and us image ko neeche push kardo
+. image ko animated way main upar laoo
